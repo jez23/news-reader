@@ -1,9 +1,11 @@
+import ArticleScreen from './components/ArticleScreen'
 import HomeScreen from './components/HomeScreen'
-
 import { StackNavigator } from 'react-navigation'
 
+
 export default StackNavigator({
-  Home: { screen: HomeScreen }
+  Home: { screen: HomeScreen },
+  Article: { screen: ArticleScreen }
 })
 
 
